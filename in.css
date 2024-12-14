@@ -1,0 +1,558 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.mainbody{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #c9e7f2, #62bada);
+    
+}
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 10%;
+    /* margin-top: 38px; */
+    margin-left: 121px;
+    height: 100%;
+    background-color: transparent;
+  }
+  .logo {
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .navbar .btn {
+    background-color: #4f46ba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 150px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown .dropdown-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .dropdown .dropdown-toggle::after {
+    content: "\25BC"; 
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
+
+  .dropdown-content.show {
+    display: block;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+    margin-left: 121px;
+    margin-top: 41px;
+    height: 521px;
+  }
+
+  .main-text {
+    max-width: 50%;
+  }
+
+  .main-text h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .main-text p {
+    color: #555;
+    margin: 20px 0;
+    font-size: 1.1rem;
+    width: 410px;
+    height: 60px;
+  }
+
+  .main-text .buttons {
+    margin-top: 40px;
+  }
+
+  .main-text .buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    /* border-radius: 5px; */
+  }
+
+  .sec-text{
+    display: flex ;
+    align-items: center;
+    
+  }
+
+  .started{
+    background-color: #3734a9;
+    border-radius: 47px;
+    padding: 15px 39px ;
+    color: white;
+}
+
+  .works{
+    display: flex;
+    align-items: center;
+    padding-left: 33px;
+  }
+
+  .works img{
+    width: 3rem;
+  }
+
+  .get-text{
+    margin-left: 1rem;
+    color: #3734A9;
+    font-size: 17px;
+  }
+
+
+  
+  .check {
+      font-family: Arial, sans-serif;
+      display: flex;
+      margin-top: 40px;
+    }
+
+    .check img{
+        width: 1.1rem;
+    }
+    
+    .checkserv{
+        margin-left: 35px;
+    }
+
+    .check-text{
+        margin-left: 0.5rem;
+        font-size: 17px;
+        color: #757095;
+
+    }
+    
+    
+    .main-image {
+      position: relative;
+    }
+  
+    .main-image img {
+      width: 25rem;
+      height: 50rem;
+      transform: rotate(-5deg);
+    }
+
+
+/* company  */
+
+.partner {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin: 5vh 0 ;
+}
+
+.part-text{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+.partner img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+/* portfolio */
+
+.portfolio{
+    margin-left:18rem;
+    margin-top: 5rem;
+    
+
+    display: flex;
+}
+
+.left-port{
+    max-width: 40%;
+    
+}
+
+.main-port{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    
+}
+
+.sub-port{
+    /* margin: 10px; */
+    font-size: 0.8rem;
+    line-height:2;
+    /* width: 10%; */
+
+}
+
+.right-port{
+    margin-left: 10rem;
+}
+
+.quote-box {
+    background-color: #C4C4C4;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    position: relative;
+    
+  }
+
+  .quote-box::before {
+    content: "\201C";
+    font-size: 40px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    height: 2rem;
+    padding: 0.1rem 0.5rem;    
+    position: absolute;
+    top: -15px;
+    left: 15px;
+  }
+
+  .quote-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    line-height: 1;
+  }
+
+  .author { 
+    line-height: 3;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    
+  }
+
+
+  /* cards */
+
+  .cards-container {
+   
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #e0e0e0;
+  }
+
+  .card .number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+ 
+  .card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card h3 {
+    font-size: 20px;
+    color: #000;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .card p {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+
+  /* why us */
+
+  .whyfirst{
+    display: flex;
+    margin: 0 10rem;
+    margin-top: 5rem;
+
+  }
+
+  .why-firstimg{
+    width: 50%;
+    padding-left: 1rem;
+  }
+
+  .why-firstimg img{
+    width: 35rem;
+  }
+
+
+
+  .why-text {
+    padding-right: 7rem;
+    background-color: #fff;
+  }
+
+  .why-text h2 {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #3734A9;
+  }
+
+  .why-text h3{
+    line-height: 1;
+    margin: 0;
+    font-size: 40px;
+    color: #000;
+    font-weight: 800;
+    margin-bottom: 1.8rem;
+  }
+
+  .whymsg {   
+    font-size: 16px;
+    color: #505887;
+  }
+
+  .benefits-list{
+    margin-top: 1rem;
+  }
+
+  .whypoint{
+    margin: 1.2rem 0;
+  }
+
+  .whypoint img{
+    width: 0.8rem;
+  }
+
+  .whysecond{
+    display: flex;
+    margin: 0 10rem;
+  }
+
+  .whysecond .why-text{
+    padding-right: 20rem;
+  }
+
+  .whysecond h2{
+    padding-top: 10rem;
+  }
+
+  .why-text{
+    width: 50%;
+    /* padding-top: 35rem ; */
+  }
+
+  .whysecond .quote-box{
+    margin: 2rem 0;
+  }
+
+  .why-secondimg{
+    width: 50%;
+  }
+
+  .whysecond img{
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* features */
+
+
+  /* testimonials */
+
+  .testimonials{
+    margin: 5rem 15rem;
+  }
+
+  .testi{
+    display: flex;
+    gap: 30%;
+  }
+
+  .testi-text{
+    width: 50%;
+  }
+
+  .testi h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .testi-msg{
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .testi-img{
+    display: flex;
+    align-items: center;
+  }
+  .testi-img img{
+    /* width: 20px; */
+  }
+
+  .quotes{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .testi-quote{
+    margin-top: 2rem;
+  }
+
+  .testi-quote .quote-box {
+    display: flex;
+  }
+
+  .quoteimg img{
+    width: 100%;
+    
+  }
+
+
+  /* stats */
+
+  /* recent blogs */
+
+  .blogs{
+    width: max-content;
+    margin: auto;
+  
+  } 
+  .bloghead{
+    width: 1200px ;
+    margin: auto
+  
+  }
+  
+  .blogs h1{
+    font-weight: 800;
+  }
+
+  .upperblog{
+    display: flex;
+    gap: 3rem;
+  }
+
+  .uppertext h3{
+    font-size: 12px ;
+  }
+
+  .uppermsg{
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .readmore{
+    margin:1rem 0 ;
+    border: none;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .upperimg img {
+    width: 300px;
+  }
+
+  .lowerblog{
+    margin: 5rem;
+    display: flex;
+    gap: 3rem;
+    /* width: 40%; */
+  }
+  
+  .lower h3{
+    font-size: 12px;
+
+  }
+
+  .lowermsg{
+    width: 60%;
+    font-weight: 600;
+  }
+
+  .lowerblog img{
+    /* width: 300px; */
+  }
+
+  /* question */
+
+
+  /* discover */
+  .discover{
+    width: max-content;
+    background-image: url(img/dicover.png);
+  }
+  
+
