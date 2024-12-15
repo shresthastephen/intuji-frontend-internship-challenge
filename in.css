@@ -93,7 +93,7 @@ body {
     flex-direction: row;
     /* align-items: center; */
     justify-content: space-between;
-    height: 100vh; 
+    height: 95vh; 
     }
 
   .main-text {
@@ -174,7 +174,7 @@ body {
     .main-image img {
       width: 25rem;
       margin-right: 5rem;
-      transform: rotate(-5deg);
+      /* transform: rotate(-5deg); */
       
     }
 
