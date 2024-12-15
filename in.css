@@ -1,8 +1,16 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #000;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  width: 100vw;
+  font-family: "Manrope", sans-serif;
+  background-color: #FAFBFF;
+  overflow-x: hidden;
+}
+
 
 .mainbody{
     margin: 0;
@@ -399,7 +407,7 @@ body {
   }
 
   .whysecond .why-text{
-    padding-right: 20rem;
+    /* padding-right: 20rem; */
   }
 
   .whysecond h2{
@@ -483,76 +491,222 @@ body {
 
   /* stats */
 
-  /* recent blogs */
-
-  .blogs{
+  .stats{
+    /* padding: 0; */
     width: max-content;
+    object-fit: contain;
     margin: auto;
-  
-  } 
-  .bloghead{
-    width: 1200px ;
-    margin: auto
-  
   }
-  
+
+  .stats img{
+    width: 120vh;
+    margin: auto;
+    height: 11vw;
+  }
+
+  /*blogs  */
+
   .blogs h1{
-    font-weight: 800;
+    margin-bottom: 2.2rem;
+    width: max-content;
+    margin: inherit;
   }
 
   .upperblog{
+    width: max-content;
+    margin: auto;
+    /* width: 100%; */
+    height: 225px;
+    background-color: #fff;
     display: flex;
-    gap: 3rem;
+    gap: 12rem;
   }
 
-  .uppertext h3{
-    font-size: 12px ;
+  .uppertext, .lowertext{
+    padding: 1rem;
   }
+
+
 
   .uppermsg{
-    font-size: 14px;
-    font-weight: 600;
+    margin: 1rem 0 3rem;
   }
 
-  .readmore{
-    margin:1rem 0 ;
-    border: none;
-    background-color: #fff;
-    color: #000;
+  .upperblog img{
+    height: 100%;
   }
 
-  .upperimg img {
-    width: 300px;
+  .downblog{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
   }
 
   .lowerblog{
-    margin: 5rem;
+    /* width: 300px; */
+    background-color: #fff;
     display: flex;
-    gap: 3rem;
-    /* width: 40%; */
+    /* flex-direction: column; */
+    justify-content: space-between;
   }
   
-  .lower h3{
-    font-size: 12px;
-
+  .lowermsg{
+    margin: 1rem 0 2rem;
   }
 
   .lowermsg{
-    width: 60%;
-    font-weight: 600;
+    width: 20rem;
   }
 
-  .lowerblog img{
-    /* width: 300px; */
+  .lowerimg, .lowerimg img{
+    width: 100%;
   }
 
-  /* question */
+  
+/* frequently question*/
+.freq {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.freqleft {
+  padding: 1.5rem;
+  margin: .5rem 0;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 7px;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer {
+  padding-top: 1rem;
+  width: 80%;
+  line-height: 2rem;
+  display: none;
+}
+
+.active-answer {
+  display: block;
+}
+
+/* freq right */
+.freqright {
+  padding: 2rem;
+  height: 100%;
+  text-align: center; 
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 7px;
+}
+
+.freqright i {
+  margin: 3rem 0;
+  font-size: 4rem;
+}
+
+.freqright p {
+  margin: 2rem 0 5rem;
+}
+
+.freqright button, .cta-container button {
+  padding: 1.5rem 0;
+  width: 100%;
+  color: #fff;
+  background-color: #FF7F5C;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+
 
 
   /* discover */
   .discover{
-    width: max-content;
-    background-image: url(img/dicover.png);
-  }
-  
+    padding: 6rem 5.5rem;
+    margin: 02rem 4rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("img/dicover.png");
+    background-size: cover;
+    border-radius: 1rem;
+}
 
+.discover button {
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    width: max-content;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #FF7F5C;
+    
+}
+
+
+/* footer */
+
+.footer{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.media p, .inp {
+  margin: 1.5rem 0;
+  color: #757095;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.company-links, .resources-links {
+  margin: 1.5rem 0;
+}
+
+.company-links li, .resources-links li {
+  margin: 1.25rem 0;
+  list-style: none;
+}
+
+.inp {
+  display: flex;
+}
+
+.inp input {
+  padding: .25rem .75rem;
+  width: 225px;
+  height: 45px;
+  background-color: #EEEEFF;
+  border: none;
+  outline: none;
+}
+
+.inp button {
+  padding: 0 .75rem;
+  height: 45px;
+  color: #fff;
+  background-color: #3734A9;
+  border: none;
+}
+
+.newsletter p {
+  color: #181433;
+}
+
+.copyright {
+  margin: 2rem 0 3rem;
+  text-align: center;
+}
