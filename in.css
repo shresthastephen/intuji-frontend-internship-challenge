@@ -23,9 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3% 10%;
-    /* margin-top: 38px; */
-    margin-left: 121px;
+    padding: 2rem 5rem;
     height: 100%;
     background-color: transparent;
   }
@@ -48,7 +46,7 @@ body {
     color: #fff;
     padding: 10px 20px;
     border: none;
-    /* border-radius: 5px; */
+    border-radius: 5px;
     cursor: pointer;
   }
 
@@ -60,7 +58,7 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: transparent;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     min-width: 150px;
@@ -73,9 +71,6 @@ body {
     display: block;
   }
 
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
 
   .dropdown .dropdown-toggle {
     cursor: pointer;
@@ -96,47 +91,36 @@ body {
   .main {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
-    padding: 40px 10%;
-    margin-left: 121px;
-    margin-top: 41px;
-    height: 521px;
-  }
+    height: 100vh; 
+    }
 
   .main-text {
     max-width: 50%;
+    padding: 8rem 0;
   }
 
-  .main-text h1 {
+  .main-text h1 { 
+    padding-left:5rem ;
     font-size: 3rem;
     line-height: 1.2;
   }
 
   .main-text p {
+    max-width: 80%;
     color: #555;
-    margin: 20px 0;
-    font-size: 1.1rem;
-    width: 410px;
+    padding: 2rem 0;
+    padding-left: 5rem;    
+    font-size: 1.1rem;    
     height: 60px;
-  }
-
-  .main-text .buttons {
-    margin-top: 40px;
-  }
-
-  .main-text .buttons a {
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-right: 10px;
-    font-size: 1rem;
-    font-weight: bold;
-    /* border-radius: 5px; */
   }
 
   .sec-text{
     display: flex ;
     align-items: center;
+    padding: 2rem 0 2rem 5rem;
+    
     
   }
 
@@ -153,22 +137,18 @@ body {
     padding-left: 33px;
   }
 
-  .works img{
-    width: 3rem;
-  }
-
+  
   .get-text{
     margin-left: 1rem;
     color: #3734A9;
     font-size: 17px;
   }
-
-
   
   .check {
       font-family: Arial, sans-serif;
       display: flex;
-      margin-top: 40px;
+      padding-left: 5.5rem;
+      /* margin-top: 40px; */
     }
 
     .check img{
@@ -184,17 +164,18 @@ body {
         font-size: 17px;
         color: #757095;
 
-    }
-    
+    }   
     
     .main-image {
       position: relative;
+      
     }
   
     .main-image img {
       width: 25rem;
-      height: 50rem;
+      margin-right: 5rem;
       transform: rotate(-5deg);
+      
     }
 
 
@@ -224,10 +205,7 @@ body {
 /* portfolio */
 
 .portfolio{
-    margin-left:18rem;
-    margin-top: 5rem;
-    
-
+    margin:5rem 0 0 8rem;
     display: flex;
 }
 
@@ -244,15 +222,11 @@ body {
 }
 
 .sub-port{
-    /* margin: 10px; */
-    font-size: 0.8rem;
-    line-height:2;
-    /* width: 10%; */
-
+  line-height:2;
 }
 
 .right-port{
-    margin-left: 10rem;
+    padding-left:12rem ;
 }
 
 .quote-box {
@@ -348,24 +322,24 @@ body {
 
   .whyfirst{
     display: flex;
-    margin: 0 10rem;
-    margin-top: 5rem;
+    margin: 5rem 0 0rem 8rem;
+    
 
   }
 
   .why-firstimg{
     width: 50%;
-    padding-left: 1rem;
+    
   }
 
   .why-firstimg img{
-    width: 35rem;
+    width: 80%;
   }
 
 
 
   .why-text {
-    padding-right: 7rem;
+    padding-right: 8rem;
     background-color: #fff;
   }
 
@@ -387,7 +361,10 @@ body {
   .whymsg {   
     font-size: 16px;
     color: #505887;
+    
   }
+
+  
 
   .benefits-list{
     margin-top: 1rem;
@@ -406,9 +383,7 @@ body {
     margin: 0 10rem;
   }
 
-  .whysecond .why-text{
-    /* padding-right: 20rem; */
-  }
+  
 
   .whysecond h2{
     padding-top: 10rem;
@@ -434,21 +409,84 @@ body {
 
 
   /* features */
+  .features{
+    padding: 4rem 2rem 4rem 10rem ;
+    background-color: #C9E7F2;
+  }
+  .features h1{
+    font-size: 40px;
+  }
+
+  .features h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1rem 0 ;
+  }
+
+  .feat-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+  }
+
+  .feat-grid .card{
+    padding: 2rem;
+    background-color: #fff;
+    border: 2px solid #c9e7f2;
+    border-radius: 20px;
+  }
+
+  .feat-grid img{
+    margin-top: 1 rem;
+  }
+
+  .feat-grid h3{
+    margin: 1.3rem 0;
+    text-align: left;
+    font-weight: 800;
+  }
+
+  .feat-grid p{
+    font-size: 0.8rem;
+    text-align: left;
+    color: #000;
+    font-weight: 800;
+  }
+
+  .c1 p, .c2 p{
+    font-weight: 400;
+  }
+
+  .c1{
+    grid-area: 1/1/3/1;
+  }
+
+  .c2{
+    grid-area: 1/2/3/2;
+  }
+
+  .c3, .c4{
+    display: flex;
+    align-items: center;
+  }
+
+  
 
 
   /* testimonials */
 
   .testimonials{
-    margin: 5rem 15rem;
+    margin: 2rem 0 2rem 10rem;
   }
 
   .testi{
     display: flex;
     gap: 30%;
+    /* width: 30%; */
   }
 
   .testi-text{
-    width: 50%;
+    width: 30%;
   }
 
   .testi h1{
@@ -466,13 +504,11 @@ body {
     display: flex;
     align-items: center;
   }
-  .testi-img img{
-    /* width: 20px; */
-  }
+ 
 
   .quotes{
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
   }
 
   .testi-quote{
@@ -499,37 +535,60 @@ body {
   }
 
   .stats img{
-    width: 120vh;
+    width: 80vw;
     margin: auto;
     height: 11vw;
   }
 
   /*blogs  */
 
+  .blogs{
+    margin: 2rem 0 0 9rem;
+
+  }
+
   .blogs h1{
-    margin-bottom: 2.2rem;
-    width: max-content;
-    margin: inherit;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    
   }
 
   .upperblog{
-    width: max-content;
-    margin: auto;
-    /* width: 100%; */
+    
     height: 225px;
     background-color: #fff;
     display: flex;
-    gap: 12rem;
+    justify-content: space-between;
+    /* gap: 12rem; */
   }
 
   .uppertext, .lowertext{
-    padding: 1rem;
+    padding-top: 1rem ;
   }
 
+  .uppertext h3{
+    font-size: 14px;
+  }
 
+  .uppertext p{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 1.5rem 0;
+  
+  }
 
-  .uppermsg{
-    margin: 1rem 0 3rem;
+  .readmore{
+    border: none;
+    background-color: #fff ;
+  }
+
+  .blogbtn img{
+    margin-left: 1rem;
+  }
+  
+  .upperimg{
+    padding: 0 10rem;
   }
 
   .upperblog img{
@@ -541,14 +600,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 1rem;
+    justify-content: space-between;
   }
 
   .lowerblog{
-    /* width: 300px; */
+    
     background-color: #fff;
     display: flex;
-    /* flex-direction: column; */
+    gap: 1rem;
     justify-content: space-between;
   }
   
@@ -566,8 +625,16 @@ body {
 
   
 /* frequently question*/
+.frequently{
+  margin: 7rem 5rem 0 9rem;
+}
+
+.frequently h1{
+  /* font-size: 25px; */
+  font-weight: 800;
+}
 .freq {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -583,7 +650,7 @@ body {
 
 .question {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -634,7 +701,7 @@ body {
   /* discover */
   .discover{
     padding: 6rem 5.5rem;
-    margin: 02rem 4rem;
+    margin: 2rem 5rem 0 8rem;
     text-align: center;
     color: #fff;
     background-image: url("img/dicover.png");
@@ -656,7 +723,7 @@ body {
 /* footer */
 
 .footer{
-  margin-top: 4rem;
+  margin: 4rem 5rem 0 7rem;
   display: flex;
   justify-content: space-between;
 }
@@ -707,6 +774,6 @@ body {
 }
 
 .copyright {
-  margin: 2rem 0 3rem;
+  margin: 2rem 0 ;
   text-align: center;
 }
