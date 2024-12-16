@@ -1,0 +1,461 @@
+@media (max-width: 1240px) {
+    .partner img{
+        width: 80%;     
+    }
+
+    .blogs{
+        margin: 2rem 3rem 0 9rem;
+    }
+
+
+    
+}
+
+@media (max-width: 1180px) {
+    .main-text h1{
+        font-size: 2.2rem;
+    }
+    .main-text p{
+        font-size: 1rem;
+    } 
+
+    .started{
+        padding: 10px 25px;
+    }
+
+    .works img{
+        width:2.5rem;
+
+    }
+
+    .main-port{
+        font-size: 45px;
+    }
+
+    .right-port{
+        padding-left: 6rem;
+    }
+
+    .why-text h2{
+        font-size: 11px;
+    }
+
+    .why-text h3{
+        font-size: 35px;
+    }
+
+    .whymsg{
+        font-size: 14px;
+    }
+
+    .point-text{
+        font-size: 0.9rem;
+    }
+
+    .why-firstimg img{
+        width: 90%;
+    }
+
+    .whysecond .quote-box{
+        width: 120%;
+    }
+
+    .whysecond img{
+        width: 120%;
+    }
+
+    .freqtext{
+        width: 90%;
+    }
+
+    .freqright{
+        width: 50%;
+    }
+
+    .question{
+        font-size: 1rem;
+    }
+
+    .answer{
+        font-size: 0.8rem;
+    }
+
+    .freqright h3{
+        font-size: 1rem;
+    }
+    .freqright p{
+        font-size: 0.8rem;
+    }
+
+    .freqright button {
+        width: 80%;
+        padding: 1rem 0;
+    }
+
+    .upperblog img{
+        height: 90%;
+    }
+
+    .lowerimg, .lowerimg img{
+        width: 90%;
+    }
+
+}
+
+@media (max-width:1150px) {
+    .feat-grid{
+        gap: 0.8rem;
+    }
+
+    .feat-grid .card{
+        padding: 1.2rem;
+    }
+    .testi h1{
+        font-size: 55px;
+    }
+}
+
+@media (max-width:1100px) {
+
+    .downblog{
+       display: none;
+    }
+
+    .check img{
+        width: 0.9rem;
+    }
+    .check-text{
+        font-size: 15px;
+    }
+
+    .sec-text{
+        margin-top: 1rem;
+    }
+    .main-port{
+        font-size: 40px;
+    }
+
+    .sub-port{
+        font-size: 0.9rem;
+    }
+
+    .cards-container{
+        margin: 45px 0;
+        gap: 18px;
+    }
+    .why-text h3{
+        font-size: 30px;
+    }
+
+    .point-text{
+        font-size: 0.8rem;
+    }
+
+    .whysecond .quote-box{
+        width: 140%;
+    }
+
+    .quote-text{
+        font-size: 12px;
+    }
+
+    .author{
+        font-size: 11px;
+    }
+
+    .features{
+        padding-left: 5rem ;
+    }
+
+    .quotefirst{
+        width: 90%;
+    }
+
+    .uppertext p{
+        font-size: 21px;
+    }
+
+    .upperblog img{
+        height: 77%;
+    }
+    
+}
+
+@media (max-width:1040px) {
+    .footer{
+        margin: 3rem 3rem 0 4rem;
+    }
+
+    .footer h3{
+        font: 12px;
+    }
+
+    .company-links li, .resources-links li{
+        font-size: 13px;
+    }
+
+    .newsletter p{
+        font-size: 13px;
+    }
+
+    .whymsg{
+        display: none;
+    }
+
+    .c3, .c4{
+        display: none;
+    }
+
+    .discover {
+        padding: 4rem 5rem;
+    } 
+    .upperimg{
+        padding: 0 8rem;
+    }   
+}
+
+@media (max-width:980px) {
+
+    .main-image img{
+        width: 22rem;
+    }
+
+    .main{
+        height: 84vh;
+    }
+
+    .main-text h1{
+        font-size: 2rem;
+    }
+
+    .main-text p{
+        font-size: 0.9rem;
+    }
+    
+    .started{
+        padding: 7px 20px;
+    }
+    .main-port{
+        font-size: 35px;
+    }
+    .sub-port {
+        font-size: 0.8rem;
+    }
+    .right-port{
+        padding-left: 3rem;
+    }
+
+    .cards-container{
+        gap: 8px;
+    }
+    .card img{
+        width: 16%;
+    }
+
+    .card h3{
+        font-size: 16px;
+    }
+    .card p{
+        font-size: 12px ;
+    }
+
+    .upperimg{
+        padding: 0 5rem;
+    }
+}
+
+@media (max-width:885px) {
+    .links{
+        gap: 0;
+    }
+    .main{
+        height: 63
+        vh;
+    }
+    
+
+    .main-image img{
+        width: 60%;
+    }
+
+    .navbar a{
+        font-size: 14px;
+    }
+
+    .main-text p{
+        display: none;
+    }
+
+    .started{
+        padding: 4px 14px;
+        font-size: 12px;
+    }
+
+    .works{
+        width: 2rem;
+    }
+
+
+    .get-text{
+        font-size: 14px;
+        display: none;
+    }
+
+    .works img{
+        display: none;
+    }
+
+    .portfolio {
+        margin: 5rem 0 0 4rem ;
+    }
+
+    .whysecond{
+        margin: 0 6rem;
+    }
+
+    .testimonials{
+        margin: 2rem 0 2rem 4rem;
+    }
+
+    .blogs{
+        margin: 2rem 3rem 0 4rem;
+    }
+
+    .frequently{
+        margin: 3rem 5rem 0 4rem;
+    }
+
+    .discover{
+        padding: 2rem 3rem;
+    }
+    
+}
+
+
+@media (max-width:880px) {
+    .main-image img{
+        display: none;
+    }
+
+    .media p{
+        font-size: 0.9rem;
+
+    }
+    .footer h3{
+        font-size: 1rem;        
+    }
+
+    .whyfirst{
+        margin: 3rem 0 0 4rem;
+    }
+
+    .inp input {
+        width: 150px;
+    }
+
+    .inp button{
+        width: 80px;
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media (max-width:800px) {
+    .right-port{
+        padding-left: 1rem;
+    }
+
+    .why-text h3{
+        font-size: 25px;
+    }
+
+    .quotes{
+        gap: 1rem;
+    }
+    .upperimg{
+        padding: 0 1rem;
+    }
+
+    .freq{
+        display: grid;
+    }
+
+    .freqright{
+        width: max-content;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width:755px) {
+    .navbar{
+        padding: 2rem 2rem;
+    }   
+
+    .portfolio{
+        display: grid;
+    }
+
+    .left-port{
+        width: 60%;
+    }
+    .right-port{
+        margin-top: 2rem ;
+    }
+
+    .why-text{
+        padding-right: 5rem;
+    }
+
+    .testi-text{
+        width: 40%;
+    }
+
+    .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+    .media, .company, .resources, .newsletter{
+        border-bottom: 1px solid;
+        margin-bottom: 1rem;
+        padding: 1rem 3rem;
+    }
+
+    .footer h3{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:700px) {
+    .main-text h1{
+        width: 120%;
+    }
+
+    .whysecond .quote-box{
+        display: none;
+    }
+
+    .whysecond .quote-box{
+        padding: 0rem;
+    }
+
+    .features{
+        padding-left: 2rem;
+    }
+
+    .testimonials{
+        margin: 2rem 0 2rem 2rem;
+    }
+    
+}
+
+
+
+
+

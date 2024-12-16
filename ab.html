@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Responsive List</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+      }
+
+      .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers horizontally */
+        justify-content: center; /* Centers vertically */
+        text-align: center;
+        padding: 20px;
+      }
+
+      .footer h3 {
+        margin: 10px 0;
+      }
+
+      .footer ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer ul li {
+        margin: 5px 0;
+      }
+
+      .newsletter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .newsletter input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        flex: 1; /* Responsive input field */
+        min-width: 200px;
+      }
+
+      .newsletter button {
+        padding: 10px 20px;
+        background-color: #5a4fcf; /* Adjust to match button color */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .newsletter button:hover {
+        background-color: #4b42b8;
+      }
+
+      /* Responsive */
+      @media (min-width: 768px) {
+        .footer {
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: flex-start;
+        }
+
+        .footer div {
+          margin: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="footer">
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li>Pricing</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li>Proposal Template</li>
+          <li>Invoice Template</li>
+          <li>Tutorial</li>
+          <li>How to write a contract</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Join Our Newsletter</h3>
+        <div class="newsletter">
+          <input type="email" placeholder="Your email address" />
+          <button>Subscribe</button>
+        </div>
+        <small>* Will send you weekly updates for your better</small>
+      </div>
+    </div>
+  </body>
+</html>
