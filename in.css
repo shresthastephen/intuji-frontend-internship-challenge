@@ -6,7 +6,7 @@
 
 body {
   width: 100vw;
-  font-family: "Manrope", sans-serif;
+  font-family: "Comic", sans-serif;
   background-color: #FAFBFF;
   overflow-x: hidden;
 }
@@ -28,8 +28,7 @@ body {
     background-color: transparent;
   }
   .logo {
-    font-family: Gilroy;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
   }
 
@@ -50,44 +49,6 @@ body {
     cursor: pointer;
   }
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: transparent;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    min-width: 150px;
-  }
-
-  .dropdown-content a {
-    color: black;
-    padding: 10px 15px;
-    text-decoration: none;
-    display: block;
-  }
-
-
-  .dropdown .dropdown-toggle {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-  }
-
-  .dropdown .dropdown-toggle::after {
-    content: "\25BC"; 
-    margin-left: 5px;
-    font-size: 0.8rem;
-  }
-
-  .dropdown-content.show {
-    display: block;
-  }
-
   .main {
     display: flex;
     flex-direction: row;
@@ -103,7 +64,7 @@ body {
 
   .main-text h1 { 
     padding-left:5rem ;
-    font-size: 3rem;
+    font-size: 2.6rem;
     line-height: 1.2;
   }
 
@@ -112,7 +73,7 @@ body {
     color: #555;
     padding: 2rem 0;
     padding-left: 5rem;    
-    font-size: 1.1rem;    
+    font-size: 1rem;    
     height: 60px;
   }
 
@@ -127,7 +88,7 @@ body {
   .started{
     background-color: #3734a9;
     border-radius: 47px;
-    padding: 15px 39px ;
+    padding: 10px 34px ;
     color: white;
 }
 
@@ -136,23 +97,25 @@ body {
     align-items: center;
     padding-left: 33px;
   }
+  .works img{
+    width: 2.8rem;
+  }
 
   
   .get-text{
     margin-left: 1rem;
     color: #3734A9;
-    font-size: 17px;
+    font-size: 16px;
   }
   
   .check {
-      font-family: Arial, sans-serif;
       display: flex;
       padding-left: 5.5rem;
       /* margin-top: 40px; */
     }
 
     .check img{
-        width: 1.1rem;
+        width: 1rem;
     }
     
     .checkserv{
@@ -161,7 +124,7 @@ body {
 
     .check-text{
         margin-left: 0.5rem;
-        font-size: 17px;
+        font-size: 16px;
         color: #757095;
 
     }   
@@ -215,7 +178,7 @@ body {
 }
 
 .main-port{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     line-height: 1;
     
@@ -254,7 +217,7 @@ body {
 
   .quote-text {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 550;
     color: #000;
     margin: 0;
     line-height: 1;
@@ -352,7 +315,7 @@ body {
   .why-text h3{
     line-height: 1;
     margin: 0;
-    font-size: 40px;
+    font-size: 35px;
     color: #000;
     font-weight: 800;
     margin-bottom: 1.8rem;
@@ -414,7 +377,7 @@ body {
     background-color: #C9E7F2;
   }
   .features h1{
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .features h3{
@@ -443,14 +406,14 @@ body {
   .feat-grid h3{
     margin: 1.3rem 0;
     text-align: left;
-    font-weight: 800;
+    font-weight: 600;
   }
 
   .feat-grid p{
     font-size: 0.8rem;
     text-align: left;
     color: #000;
-    font-weight: 800;
+    font-weight: 600;
   }
 
   .c1 p, .c2 p{
@@ -490,8 +453,8 @@ body {
   }
 
   .testi h1{
-    font-size: 60px;
-    font-weight: 800;
+    font-size: 45px;
+    font-weight: 600;
     margin: 0;
   }
 
@@ -548,8 +511,8 @@ body {
   }
 
   .blogs h1{
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 33px;
+    font-weight: 600;
     margin-bottom: 2rem;
     
   }
@@ -631,7 +594,7 @@ body {
 
 .frequently h1{
   /* font-size: 25px; */
-  font-weight: 800;
+  font-weight: 600;
 }
 .freq {
   margin-top: 2rem;
@@ -649,7 +612,7 @@ body {
 }
 
 .question {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   display: flex;
   justify-content: space-between;
@@ -776,4 +739,5 @@ body {
 .copyright {
   margin: 2rem 0 ;
   text-align: center;
+  font-size: 15px;
 }
